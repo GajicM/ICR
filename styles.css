@@ -1,0 +1,301 @@
+h1, .h1{
+    font-size:22px;
+  
+}
+h2, .h2{font-size:32px;
+  font-weight: normal;
+}
+h3, .h3{
+  font-size: 18px;
+  font-weight: normal;
+  display: inline;
+}
+.li {
+  display:list-item;
+
+}
+h4, .h4{font-size: 21px;
+  font-weight: bold;}
+h5, .h5{
+  font-size: 16px;
+  font-weight: normal;
+}
+.text{
+  display:inline
+}
+.box1{
+background-color: #C4CAD0;
+
+
+}
+.box2{
+    background-color: #AEB8FE;
+    vertical-align: middle;
+
+}
+.rule {
+    border-left: 1px solid #ccc;
+    height: 100%;
+    margin: 0 10px;
+  }
+  .middle-rule {
+    border-left: 1px solid #ccc;
+    height: 100%;
+    margin: 0 10px;
+  }
+  .ponudaBox{
+    padding-left: 28px;
+    padding-right:28px;
+    padding-top:22px;
+    padding-bottom: 22px;
+    vertical-align: middle;
+    background-color:#27187E;
+  }
+  .ponudaBoxInner{
+    background-color: #F9F9F9;
+    padding: 5px;
+    vertical-align: middle;
+    border-radius: 15px;
+
+  }
+  .primaryButton{
+    background-color:#FF8600;
+    color: white;
+    border-radius: 10px;
+  }
+  .CyberWebbNavbar{
+    background-color: #27187E;
+    color:white;
+    
+  }
+  .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #FF8600;
+}
+.nav-link{
+  color:white;
+ 
+}
+.nav-link.active{
+  color: #FF8600;
+}
+.nav-item{
+  width: fit-content;
+  
+  
+}
+.navbar-nav li {
+  padding-left: 15px;
+}
+.navbar-nav li:last-child {
+  margin-left:auto;
+}
+
+.pkn{
+padding-top:5%;
+padding-left:5%;
+padding-right:10%;
+padding-bottom: 10%;
+
+}
+.pitanje{
+
+  background-image: url('imgs/pplhappy.png');
+            background-color: #C4CAD0;
+            background-repeat: no-repeat;
+            background-position: left bottom;
+            height:260px
+}
+.funnyman{
+
+  background-image: url('imgs/funnyman.png');
+            background-color: #C4CAD0;
+            background-repeat: no-repeat;
+            background-position: left bottom;
+            height: 260px;
+
+}
+.businessman{
+
+  background-image: url('imgs/businessman.png');
+           
+            background-repeat: no-repeat;
+            background-position: right bottom;
+           min-height: 400px;
+
+}
+.banner{
+
+  background-image: url('imgs/img1.png');
+           
+            background-repeat: no-repeat;
+            background-position: top center;
+            background-size:100%;
+           min-height: 400px;
+           padding-left: 0%;
+}
+
+
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus 
+{
+
+   
+    color:#FF8600
+
+
+}
+
+.overlap-group1{
+align-items: center;
+border-radius: 25px;
+display: flex;
+gap: 5px;
+height: 42px;
+justify-content: flex-end;
+margin-bottom: 2px;
+margin-left: 0%;
+margin-right:auto;
+min-width: 172px;
+padding: 3px 19px;
+
+}
+
+
+.circle {
+  width: 190px;
+  height: 190px;
+  line-height: 18px;
+  border-radius: 50%;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  background: #27187E;
+  padding-top: 60px;
+  margin-left: 2%;
+  margin-top: 50px;
+}
+.najkv{
+ margin-right: 16px;
+ margin-left:auto;
+ background-color: #fff;
+ color: #27187E;
+ text-shadow: #AEB8FE;
+ box-shadow: #ccc;
+ border-radius:15px ;
+ text-align: center;
+ min-width: 379px;
+min-height: 134px;
+max-height: 134px;
+
+}
+
+.line{
+ border-bottom: 1px solid white; 
+ height: 75px; 
+ 
+}
+
+
+.meeting{
+
+  background-image: url('imgs/meetingrbg.png');
+            background-color: #C4CAD0;
+            background-repeat: no-repeat;
+            background-position: left bottom;
+            background-size:45%;
+            height:220px;
+            padding:0px 2% 0% 40%
+}
+.webHosting{
+
+  background-image: url('imgs/webHosting.png');
+  background-color: #C4CAD0;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size:33%;
+  height:220px;
+  padding:0px 2% 0% 40%
+}
+
+.biz{
+  background-color: #C4CAD0;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  height:220px
+
+}
+.biz2{
+  background-color: #C4CAD0;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  height:220px
+
+}
+
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .responsive-image {
+    max-width: 100%;
+  }
+  .h7{
+    font-size: 16px;
+  }
+  .biz{
+    height: 260px;
+  }
+  .meeting{
+    height:260px;
+    padding:0px 2% 0% 0%
+  }
+  .pitanje{
+    background-size:45% ;
+  }
+  .funnyman{
+    background-size:45% ;
+    padding-top: 2%;
+  }
+  .businessman{
+    background-size:30%;
+    
+  }
+  .biz2{
+    height:280px
+  }
+  .banner{
+    background-size: 300%;
+  }
+}
+
+@media (max-height: 600px) {
+  .responsive-image {
+    max-height: 100%;
+  }
+  .h7{
+    font-size: 16px;
+  }
+  .biz{
+    height: 260px;
+  }
+  .meeting{
+    height:260px;
+    padding:0px 2% 0% 0%;
+    margin-top: 0%;
+  }
+  .webHosting{
+    background-size:30%;
+  }
+}
+
+.h7{
+  font-size: 18px;
+}
+
+.svg{
+  height: 210; 
+  width:250
+
+}
