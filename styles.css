@@ -15,7 +15,9 @@ h3, .h3{
 
 }
 h4, .h4{font-size: 21px;
-  font-weight: bold;}
+  font-weight: bold;
+  text-shadow: 1px 1px grey;
+}
 h5, .h5{
   font-size: 16px;
   font-weight: normal;
@@ -27,11 +29,14 @@ h5, .h5{
 background-color: #C4CAD0;
 
 
+
 }
 .box2{
     background-color: #AEB8FE;
     vertical-align: middle;
+    border-radius: 15px;
 
+   
 }
 .rule {
     border-left: 1px solid #ccc;
@@ -50,6 +55,8 @@ background-color: #C4CAD0;
     padding-bottom: 22px;
     vertical-align: middle;
     background-color:#27187E;
+    box-shadow:  2px 5px #C4CAD0;
+    border:1px solid black;
   }
   .ponudaBoxInner{
     background-color: #F9F9F9;
@@ -103,7 +110,9 @@ padding-bottom: 10%;
             background-color: #C4CAD0;
             background-repeat: no-repeat;
             background-position: left bottom;
-            height:260px
+            height:260px;
+            border-radius: 15px;
+            border:1px solid black;
 }
 .funnyman{
 
@@ -112,6 +121,8 @@ padding-bottom: 10%;
             background-repeat: no-repeat;
             background-position: left bottom;
             height: 260px;
+            border-radius: 15px;
+            border:1px solid black;
 
 }
 .businessman{
@@ -120,8 +131,8 @@ padding-bottom: 10%;
            
             background-repeat: no-repeat;
             background-position: right bottom;
-           min-height: 400px;
-
+            min-height: 400px;
+          
 }
 .banner{
 
@@ -132,6 +143,8 @@ padding-bottom: 10%;
             background-size:100%;
            min-height: 400px;
            padding-left: 0%;
+           border-radius: 15px;
+           
 }
 
 
@@ -157,7 +170,6 @@ margin-left: 0%;
 margin-right:auto;
 min-width: 172px;
 padding: 3px 19px;
-
 }
 
 
@@ -173,6 +185,7 @@ padding: 3px 19px;
   padding-top: 60px;
   margin-left: 2%;
   margin-top: 50px;
+  box-shadow: 2px 3px black;
 }
 .najkv{
  margin-right: 16px;
@@ -186,7 +199,7 @@ padding: 3px 19px;
  min-width: 379px;
 min-height: 134px;
 max-height: 134px;
-
+box-shadow: 2px 3px black;
 }
 
 .line{
@@ -204,7 +217,10 @@ max-height: 134px;
             background-position: left bottom;
             background-size:45%;
             height:220px;
-            padding:0px 2% 0% 40%
+            padding:0px 2% 0% 40%;
+            border-radius: 15px;
+            
+border:1px solid black;
 }
 .webHosting{
 
@@ -214,22 +230,29 @@ max-height: 134px;
   background-position: left bottom;
   background-size:33%;
   height:220px;
-  padding:0px 2% 0% 40%
+  padding:0px 2% 0% 40%;
+  border-radius: 15px;
+  
+border:1px solid black;
 }
 
 .biz{
   background-color: #C4CAD0;
   background-repeat: no-repeat;
   background-position: left bottom;
-  height:220px
-
+  height:220px;
+  border-radius: 15px;
+  
+border:1px solid black;
 }
 .biz2{
   background-color: #C4CAD0;
   background-repeat: no-repeat;
   background-position: left bottom;
-  height:220px
-
+  height:220px;
+  border-radius: 15px;
+  
+border:1px solid black;
 }
 
 .responsive-image {
@@ -298,4 +321,11 @@ max-height: 134px;
   height: 210; 
   width:250
 
+}
+.primaryButton{
+ min-width: 100%; 
+}
+.primaryButton:hover{
+  background-color: #C4CAD0;
+  color:black;
 }
